@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in HTML involving event listeners attached to dynamically created elements. The bug is that the event listener attached to the dynamically created paragraph element does not trigger the alert. The solution corrects this by ensuring the event listener is attached after the element is appended to the DOM.
